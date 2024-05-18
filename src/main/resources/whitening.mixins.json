@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "mont.whitening.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "InGameHudMixin",
+    "OverlayTextureMixin",
+    "WorldRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

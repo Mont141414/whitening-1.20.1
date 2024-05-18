@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "whitening",
+	"version": "${version}",
+	"name": "Whitening",
+	"description": "Makes some stuff white.",
+	"authors": [
+		"Mont"
+	],
+	"contact": {
+	},
+	"license": "CC-BY-SA-4.0",
+	"icon": "assets/whitening/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mont.whitening.Whitening"
+		]
+	},
+	"mixins": [
+		"whitening.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
